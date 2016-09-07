@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="./controller.js"></script>
+<link rel="stylesheet" type="text/css" href="product-add.css">
+<body>
+<div ng-app="myapp">
+    <div class="header">
+        <h3 class="header">Add Product </h3>
+        <button class="cancel-button" type="button">Cancel</button>
+        <button class="save-button" type="button">Save</button>
+    </div>
+    <div style="background-color:rgb(255,248,220); color:black; padding:800px;">
+        <div class="name-frame" style="background-color:rgb(255,255,255)">
+            <br>
+            <input class="product-name" type="text" name="" placeholder="Name*">
+            <input class="enabled-checkbox" id="enabled-checkbox" type="checkbox">
+            <label for="enabled-checkbox" style="">Enabled</label>
+            <br><br>
+            <input class="product-txt-common"type="text" name="" placeholder="Description">
+            <br>
+        </div>
+        <div class="manufacturer-frame" style="background-color:rgb(255,255,255)">
+            <h4>Manufacturer Details</h4>
+            <input class="manufacturer-name" type="text" name="" placeholder="Name*">
+            <input class="manufacturer-address" type="text" name="" placeholder="Address">
+            <input class="manufacturer-name" type="text" name="" placeholder="Phone Number">
+            <input class="manufacturer-name" type="text" name="" placeholder="Email Address">
+            <br>
+        </div>
+        <div class="image-frame">
+            <h4>Image </h4>
+            <br><br>
+        </div>
+        <div class="pricing-frame">
+            <h4>Pricing </h4>
+            <input class="product-txt-common" type="text" name="" placeholder="Price (in Rs.)">
+            <br>
+            <input class="product-txt-common" type="text" name="" placeholder="Competitor Price (in Rs.)">
+            <br><br>
+        </div>
+        <div class="inventory-frame">
+            <h4>Inventory </h4>
+            <input class="product-txt-common" type="text" name="" placeholder="Quantity">
+            <select>
+                <option value="kg">kg</option>
+                <option value="ml">ml</option>
+            </select>
+            <input type="text" placeholder="Stock Keeping Unit">
+            <input type="text" placeholder="Barcode">
+            <br><br>
+            <h4>Variants </h4>
+            <label for="variants">Have Variants?</label>
+            <input type="checkbox" id="variants">
+            <br>
+            <label for="colour">Colour</label>
+            <label for="size">Size</label>
+            <label for="material">Material</label>
+            <label for="material">Price</label>
+            <label for="material">SKU</label>
+            <label for="material">Barcode</label>
+            <br>
+            <input type="text" id="colour">
+            <input type="text" id="size">
+            <input type="text" id="material">
+            <input type="text" id="price">
+            <input type="text" id="SKU">
+            <input type="text" id="Barcode">
+        </div>
+    </div>
+</div>
+</body>
+</html>

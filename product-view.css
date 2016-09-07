@@ -1,0 +1,98 @@
+div.header {
+    width: 99%;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    background-color: rgb(255,228,181);
+}
+div.tree-view-frame[style="background-color:rgb(255,255,255)"] {
+    width: 20%;
+    height: 1000px;
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+div.list-view-frame {
+    width: 78%;
+    height: 800px;
+    position: absolute;
+    top: 90px;
+    left: 400px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+h4.list-view-name {
+    display: inline;
+    position: relative;
+    left: 125px;
+}
+h4.list-view-desc {
+    display: inline;
+    position: relative;
+    left: 400px;
+}
+h4.list-view-qty {
+    display: inline;
+    position: relative;
+    left: 600px;
+}
+h4.list-view-vendor {
+    display: inline;
+    position: relative;
+    left: 800px;
+}
+ul {
+    list-style-type: none;
+    width: 500px;
+}
+
+h3 {
+    font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+li img {
+    float: left;
+    margin: 0 15px 0 0;
+    display: inline;
+    top: 15px;
+}
+
+li {
+    padding: 5px;
+    overflow: auto;
+    height: 50px;
+    clear: both;
+}
+
+li:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+li p.product-desc {
+    display: inline;
+    position: relative;
+    top: 15px;
+    left: 400px;
+    font: 200 17px/1.5 Georgia, Times New Roman, serif;
+}
+li p.product-name {
+    position: relative;
+    display: inline;
+    left: 125px;
+    top: 15px;
+    font: 200 17px/1.5 Georgia, Times New Roman, serif;
+}
