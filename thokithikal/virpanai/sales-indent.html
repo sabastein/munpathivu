@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="../../controller.js"></script>
+<link rel="stylesheet" type="text/css" href="sales-indent.css">
+<body>
+<div ng-app="myapp">
+    <div class="header">
+        <h3 class="header">Add Product </h3>
+    </div>
+    <div style="background-color:rgb(255,248,220); color:black; padding:450px;">
+        <div class="name-frame" style="background-color:rgb(255,255,255)">
+            <br>
+            <input class="bill-no" type="text"  name="" placeholder="Bill-No" disabled>
+            <br>
+            <br>
+            <input class="bill-no" type="text" name="" placeholder="Date">
+            <br>
+            <br>
+            <input class="customer-name" type="text" name="" placeholder="Name">
+            <input class="product-txt-common"type="text" name="" placeholder="Address">
+            <br>
+        </div>
+        <div class="indent-frame">
+            <div class="list-view-title">
+                <h4 class="item-no">No</h4>
+                <h4 class="item-id">Item Id</h4>
+                <h4 class="item-name">Item Name</h4>
+                <h4 class="item-rate">Rate</h4>
+                <h4 class="item-available-qty">AvailableQty</h4>
+                <h4 class="item-qty">Qty</h4>
+                <h4 class="item-disc-per">Disc%</h4>
+                <h4 class="item-disc">Disc</h4>
+                <h4 class="item-tax">Tax%</h4>
+                <h4 class="item-our-price">Our Price</h4>
+            </div>
+            <div class="total-calculation-frame">
+                <h4 class="total-discount">Discount%</h4>
+                <input class="txt-total-discount" type="text" name="text">
+                <h4 class="total-vat-4">VAT@4%</h4>
+                <input class="txt-total-vat4" type="text" name="text">
+                <h4 class="total-vat-12">VAT@12.5%</h4>
+                <input class="txt-total-vat12" type="text"  name="">
+                <h4 class="total-sub">Sub Total</h4>
+                <input class="txt-total-vat-sub-total" type="text"  name="" disabled>
+                <h4 class="total-after-tax">Total After Tax</h4>
+                <input class="txt-total-after-tax" type="text"  name="" disabled>
+                <h4 class="total-net-amount">Net Amount</h4>
+                <input class="txt-total-amount" type="text"  name="" disabled>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
